@@ -1,0 +1,10 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+float base,exp,result;
+scanf("Enter the value of base & exponent%d%d",&base,&exp);
+result=pow(base,exp);
+printf("the power is:%d",result);
+return 0;
+}
